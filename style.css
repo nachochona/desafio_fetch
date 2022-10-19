@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(55, 55, 55)
+}
+#productos{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(50, 50, 50);
+    font-size: 2rem;
+}
+#carrito{
+    background-color: rgb(55, 55, 55);
+}
+#btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(170, 170, 30, 0.750);    
+}
+#btn p{
+    font-size: 3rem;
+    margin-left: 25px;
+}
+.alert-eli{
+    background: #b60d0d;
+}
+#comprarCarrito{
+    background: green;
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 2rem;
+}
+#vaciarCarrito{
+    background: orangered;
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 2rem;
+}
